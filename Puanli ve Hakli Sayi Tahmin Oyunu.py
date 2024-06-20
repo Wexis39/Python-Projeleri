@@ -11,6 +11,7 @@ while i < hak:
     if cevap == randomSayi:
         print('-'*12)
         print('--Tebrikler--')
+        print('Dogru cevap: {}'.format(randomSayi))
         print('Puaniniz: {}'.format(puan))
         break
     elif cevap < randomSayi:
