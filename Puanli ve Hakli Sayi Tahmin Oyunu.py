@@ -1,10 +1,11 @@
 import random
+import math
 
 hak = int(input('Hakkin: '))
 print('-'*12)
 i = 0
 puan = 100
-puanSistemi = round(puan / hak)
+puanSistemi = math.floor(puan / hak)
 randomSayi = random.randint(1,100)
 while i < hak:
     cevap = int(input(f'{hak} hakkiniz var. Cevabin: '))
