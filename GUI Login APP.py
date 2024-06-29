@@ -11,8 +11,8 @@ form.resizable(width=False,height=False)
 def registerSystem():
     global nickname
     global password
-    nickname = nickname_entry.get()
-    password = password_entry.get()
+    nickname = (nickname_entry.get()).strip()
+    password = (password_entry.get()).strip()
     if nickname.strip() == '' or password.strip() == '':
         check_label.config(text='Registration Failed',fg='red')
         check_label.place(x=200,y=200)
