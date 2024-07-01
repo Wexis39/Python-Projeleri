@@ -4,7 +4,7 @@ import time
 
 root = tk.Tk()
 root.geometry('242x140')
-
+root.resizable(False,False)
 root.config(bg='#fab7ef')
 
 def timer():
