@@ -15,7 +15,7 @@ def timer():
 label_time = tk.Label(root,bg='#b38be5',font='sans 45 bold',fg='#ffffff')
 label_time.pack(padx=0,pady=0)
 
-label = tk.Label(root,bg='#8f5bd1',font='sans 36 bold',fg='#ffffff',text='Timer')
+label = tk.Label(root,bg='#8f5bd1',font='sans 36 bold',fg='#00fe92',text='Timer')
 label.pack(padx=0,pady=0,fill='x')
 
 timer()
